@@ -1,0 +1,22 @@
+package ProjetoMaisComplexos;
+
+public class LoginBanco {
+    String login, senha;
+
+    public LoginBanco(String login, String senha) {
+        this.login = login;
+        this.senha = senha;
+
+    }
+    public boolean autenticarUsuario() {
+        return login.equals("filipeantonny@gmail.com") && senha.equals("221080643");
+    }
+
+    public String getLogin() {
+        return login;
+    }
+
+    public String getSenha() {
+        return senha;
+    }
+}
